@@ -6,6 +6,7 @@ import {Navbar as Nav, NavbarBrand, NavbarToggler, NavItem, NavLink, Uncontrolle
 const Navbar = () => {
   return (
   <Nav
+    id="navigation"
     color="primary"
     dark
     expand="md"
@@ -21,7 +22,7 @@ const Navbar = () => {
         navbar
       >
         <NavItem>
-          <Link to="/">
+          <Link to="/" >
             Home
           </Link>
         </NavItem>
@@ -42,21 +43,21 @@ const Navbar = () => {
           </DropdownToggle>
           <DropdownMenu right>
             <DropdownItem>
-              Option 1
+              Sacramento County
             </DropdownItem>
             <DropdownItem>
-              Option 2
+              Placer County
             </DropdownItem>
-            <DropdownItem divider />
             <DropdownItem>
-              Reset
+              El Dorado County
             </DropdownItem>
           </DropdownMenu>
         </UncontrolledDropdown>
       </Nav>
       <NavbarText>
-        Simple Text
+        Phone: &nbsp; 
       </NavbarText>
+      <a className="call-link" href="tel:5890000111">589-0000111</a>
     </Collapse>
   </Nav>
   );
