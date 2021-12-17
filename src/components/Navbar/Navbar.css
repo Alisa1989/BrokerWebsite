@@ -1,12 +1,22 @@
-.navbar-container-big-screens {
+.contact-links-mobile {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.contact-icon:hover{
+    color: cyan;
+    border-bottom: none;
 }
 
 .navbar-menu li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.navbar-image {
+    width: 150px;
 }
 
 .navbar-menu button{
@@ -17,17 +27,16 @@
     text-align: left;
 }
 
-.navbar-menu a:hover{
+.navbar-navigation a:hover{
     border-bottom: 2px solid white;
     color: white;
 }
-
 
 .navbar-navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     align-items: center;
 }
 
@@ -38,7 +47,7 @@ li {
 }
 
 .navbar-menu {
-    background-color: rgb(38, 169, 221);
+    background-color: #518bca;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,11 +56,6 @@ li {
     height: 60px;
 }
 
-/* .navbar-image {
-    width: 300px;  
-    position: relative;
-    left: 10%;
-} */
 .dropdown {
     display: inline-block;
     position: relative;
@@ -82,29 +86,71 @@ li {
     background-color: white;
 }
 
-.dropdown-content a:hover {
+.dropdown-content-mobile a:hover {
     color: #ffffff;
-    background-color: rgb(38, 169, 221);
+    background-color: #518bca;
+}
+
+.mobile-dropdown {
+    display: inline-block;
+    position: relative;
+
+}
+
+.dropdown-content-mobile {
+    display: none;
+    position: absolute;
+    width: 200%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.mobile-dropdown:hover .dropdown-content-mobile {
+    display: block;
+}
+
+.dropdown-content-mobile a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.dropdown-content-mobile a:hover {
+    color: #ffffff;
+    background-color: #518bca;
 }
 
 .contact-link {
     color: white;
+    text-decoration: none;
 }
 
 .dropdown button {
     border: none;
-    background-color: rgb(38, 169, 221);
+    background-color: #518bca;
     color: white;
 }
 
 @media only screen and (max-width: 895px) { 
-    .navbar-image{
+    /* .navbar-image{
         display: none;
-    }
+    } */
     .navbar-links {
         display: none;
     }
     .navbar-navigation {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 895px) { 
+    .contact-links-mobile {
+        display: none;
+    }
+
+    .mobile-dropdown {
         display: none;
     }
 }
