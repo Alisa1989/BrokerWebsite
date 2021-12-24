@@ -1,16 +1,12 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 import smallImage from "../../images/jhesse.jpg";
 import {faPhone, faEnvelope, faBars} from "@fortawesome/free-solid-svg-icons";
 import {faTwitter, faPinterest, faFacebook, faFontAwesome} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 const Navbar = () => {
-  const [geoDropdown, setGeoDropdown] = useState(false);
-
-  const toggleGeoDropdown = () => setGeoDropdown(geoDropdown);
 
   return (
     <div className="navbar-container">
@@ -26,12 +22,12 @@ const Navbar = () => {
       <img className="navbar-image" src={smallImage} alt="small-logo" />
       <div className="mobile-dropdown">
           <button className="mobile-menu">
-            <FontAwesomeIcon icon={faBars}/>
+            <FontAwesomeIcon className="bars" icon={faBars }/>
           </button>
           <div className="dropdown-content-mobile">
           <a href="/Home">Home</a>
-          <a href="/Buy">Buy</a>
-          <a href="/Sell">Sell</a>
+          <a href="/Buy">Buying</a>
+          <a href="/Sell">Selling</a>
         </div>
         </div>
         <div className="navbar-navigation">
@@ -57,11 +53,11 @@ const Navbar = () => {
 
       <span>Phone: &nbsp;</span>
       <a className="contact-link" href="tel:9165420274">
-        (916)542-0274
+        (916)542-0274 &nbsp; &nbsp;
       </a>
-      <span>&nbsp; &nbsp; E-mail:  &nbsp;</span>
+      <span> E-mail:  </span>
       <a className="contact-link" href="mailto: jon@acceleratedrg.com">
-      jon@acceleratedrg.com
+      &nbsp; jon@acceleratedrg.com
       </a>
       </div>
     </div>
