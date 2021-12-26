@@ -28,6 +28,7 @@ const Navbar = () => {
           <a href="/Home">Home</a>
           <a href="/Buy">Buying</a>
           <a href="/Sell">Selling</a>
+          <a href="/Sell">Regions</a>
         </div>
         </div>
         <div className="navbar-navigation">

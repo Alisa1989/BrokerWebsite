@@ -27,7 +27,10 @@
     text-align: left;
 }
 
-.navbar-navigation a:hover{
+.navbar-navigation li a{
+    border-bottom: 2px solid transparent;
+}
+.navbar-navigation li a:hover{
     border-bottom: 2px solid white;
     color: white;
 }
@@ -38,6 +41,7 @@
     justify-content: space-between;
     width: 40%;
     align-items: center;
+    border-bottom: 2px solid transparent;
 }
 
 li {
@@ -84,6 +88,7 @@ li {
     padding: 5px;
     text-decoration: none;
     background-color: #518bca;
+    color: white;
 }
 
 
