@@ -25,10 +25,10 @@ const Navbar = () => {
             <FontAwesomeIcon className="bars" icon={faBars }/>
           </button>
           <div className="dropdown-content-mobile">
-          <a href="/Home">Home</a>
-          <a href="/Buy">Buying</a>
-          <a href="/Sell">Selling</a>
-          <a href="/Sell">Regions</a>
+          <Link to="/Home">Home</Link>
+          <Link to="/Buy">Buying</Link>
+          <Link to="/Sell">Selling</Link>
+          <Link to="/Sell">Regions</Link>
         </div>
         </div>
         <div className="navbar-navigation">
@@ -44,9 +44,9 @@ const Navbar = () => {
         <div className="dropdown">
           <button className="button-geo">Regions of Expertise</button>
           <div className="dropdown-content">
-          <a href="/Sell">Placer County</a>
-          <a href="/Sell">El Dorado County</a>
-          <a href="/Sell">Sacramento County</a>
+          <Link to="/Sell">Placer County</Link>
+          <Link to="/Sell">El Dorado County</Link>
+          <Link to="/Sell">Sacramento County</Link>
         </div>
         </div>
         </div> 

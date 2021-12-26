@@ -32,7 +32,7 @@
 }
 .navbar-navigation li a:hover{
     border-bottom: 2px solid white;
-    color: white;
+    color: #0a58ca;
 }
 
 .navbar-navigation {
@@ -72,6 +72,8 @@ li {
     width: 100%;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-weight: bold;
+
 }
 
 .navbar-menu span {
@@ -131,15 +133,17 @@ li {
 
 .dropdown-content-mobile a {
     display: block;
-    color: #000000;
+    color: white;
     padding: 5px;
     text-decoration: none;
-    background-color: white;
+    background-color: #518bca;
+
+
 }
 
 .dropdown-content-mobile a:hover {
-    color: #ffffff;
     background-color: #518bca;
+    color: #0a58ca;
 }
 
 .contact-link {
