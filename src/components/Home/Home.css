@@ -2,3 +2,20 @@ p {
     padding: 0% 20%;
     letter-spacing: 0.1em;
 }
+
+.home-container {
+    margin: 5%;
+}
+
+.home-container h1{
+    padding: 2%;
+}
+
+.home-container p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-container .home-icon {
+    padding: 2%;
+}

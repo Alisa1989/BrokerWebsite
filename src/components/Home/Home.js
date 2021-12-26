@@ -1,20 +1,54 @@
-import React from 'react';
+import React from "react";
 import "./Home.css";
 import logoImage from "../../images/logo1.jpg";
-
+import {faHouseUser} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Home = () => {
-    return(
-        <div className="home-container">
-            <h1>Home component</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies porttitor nulla et maximus. Nam placerat congue nulla, at aliquet lacus. Curabitur rutrum mattis justo. Pellentesque hendrerit ornare quam ut fringilla. Ut in tortor gravida, suscipit sapien nec, pretium risus. Donec viverra urna in fringilla iaculis. Praesent cursus eu ante ut pretium.
-            Proin eros magna, congue et lacinia id, posuere sit amet orci. Curabitur ut faucibus felis, sit amet suscipit lectus. Ut vitae quam ac nisi sagittis lobortis iaculis sit amet mi. Nam lobortis enim in nisi imperdiet tincidunt. Curabitur vel purus tellus. Proin bibendum ex eu est pulvinar rutrum. Aenean ac tortor sem. Curabitur at pulvinar elit. Sed eu ante in purus pharetra iaculis. Integer condimentum vulputate mi, a pretium urna. Duis elit urna, pellentesque ac nisl id, vestibulum rutrum enim. Aliquam erat volutpat. Quisque mollis quis dolor in posuere. Vestibulum molestie sem a commodo semper. Fusce fermentum, felis nec volutpat auctor, eros ligula laoreet nisl, sit amet mollis est velit eu eros. Pellentesque non lacinia odio.
-            Cras tempor, massa vitae molestie venenatis, massa ipsum vulputate nibh, a tempus neque ipsum at lacus. Suspendisse laoreet, mi vitae gravida tincidunt, nulla magna lobortis lacus, quis finibus arcu ligula non mauris. Vestibulum ut lacus odio. Cras ac sapien quis metus semper dapibus a ac turpis. Vivamus et venenatis neque, in efficitur augue. Suspendisse metus velit, gravida tincidunt euismod in, laoreet sit amet arcu. Vivamus eleifend volutpat mi, sed pharetra tellus. Morbi accumsan lectus vel dui posuere aliquam. Etiam tortor magna, congue ac aliquam a, semper eget purus. Suspendisse feugiat nec dolor a vestibulum. Proin non arcu velit. Suspendisse porttitor, arcu sit amet elementum aliquam, urna dolor iaculis turpis, ac condimentum ex lorem tempor massa. Vestibulum ac dignissim libero. Vivamus commodo egestas urna quis elementum. Sed lorem felis, vulputate non ligula eu, fermentum pharetra purus. Donec ullamcorper mattis congue.
-            </p>
-      <img className="home-image" src={logoImage} alt="logo"/>
-        
-        </div>
-    )
-}
+  return (
+    <div className="home-container">
+        <FontAwesomeIcon className="home-icon" icon={faHouseUser} color="#518bca" size="10x"/>
+      <p>
+      &emsp; When it comes to buying and selling real estate in Sacramento,
+        California, and the surrounding area, it’s important to have a skilled
+        Sacramento County real estate agent by your side to assist you through
+        these complex processes.
+      </p>
+      <p>
+      &emsp; Since 2004, Jon Hesse has been helping people in and around the Golden
+        State capital with all their real estate needs. Whether you’re looking
+        for the perfect home to settle down in with your family, attempting to
+        sell the property you’re currently living in or hoping to invest in
+        local real estate, he has the necessary resources and experience to help
+        you.
+      </p>
+      <p>
+      &emsp; Jon proudly serves Sacramento’s three main counties — El Dorado, Placer
+        and Sacramento — as well as other locations outside of the city. He
+        knows the ins and outs of the local real estate market, so he can get
+        you the best deal to fit your unique needs. Not only that, but he’s
+        familiar with all that the Sacramento area has to offer — from
+        restaurants to schools to entertainment and everything in between.
+      </p>
+      <p>
+      &emsp; One thing you’ll notice about Jon is that he adheres to the highest
+        standards of professionalism and expertise. His expert knowledge coupled
+        with his dedication to superior customer service set him apart from the
+        competition, making him one of the top real estate agents in Sacramento.
+      </p>
+      <p>
+      &emsp; There’s a lot to love about Sacramento — its four distinct seasons, its
+        close proximity to the San Francisco Bay Area and its affordability, to
+        name a few. Once you’re ready to purchase investment properties or
+        Sacramento homes for sale — or place your residence on the market — you
+        can count on Jon to ensure that these processes go smoothly from start
+        to finish.
+      </p>
+      <p>&emsp; Call Jon today to schedule an appointment.</p>
+
+      <img className="home-image" src={logoImage} alt="logo" />
+    </div>
+  );
+};
 
 export default Home;
