@@ -1,4 +1,27 @@
-p {
+.home-container {
+    margin: 5%;
+}
+
+.home-container p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     padding: 0% 20%;
     letter-spacing: 0.1em;
+ }
+
+ .home-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+ }
+
+.home-container .home-icon {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 895px) { 
+.home-container p {
+    padding: 0%;
+}
 }
