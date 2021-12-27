@@ -7,15 +7,18 @@ p {
     margin: 5%;
 }
 
-.home-container h1{
-    padding: 2%;
-}
-
 .home-container p {
     text-align: left;
     font-family: 'Roboto', sans-serif;
-}
+    font-weight: 600;
+ }
+
+ .home-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+ }
 
 .home-container .home-icon {
-    padding: 2%;
+    padding: 20px;
 }
