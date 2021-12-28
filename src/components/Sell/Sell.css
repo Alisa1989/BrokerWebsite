@@ -41,4 +41,10 @@ h1 {
      .sell-container p {
          padding: 0%;
      }
+     .sell-container ol {
+        padding: 0% 0% 0% 3%;
+    }
+    .sell-container ul {
+        padding: 0% 0% 0% 3%;
+    }
      }
