@@ -1,0 +1,44 @@
+h1 {
+    font-size: 50px;
+ }
+ 
+ .sell-container p {
+     text-align: left;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 600;
+     padding: 0% 20%;
+     letter-spacing: 0.1em;
+  }
+
+.sell-container ol {
+    padding: 0% 20% 0% 22%;
+}
+
+.sell-container .sell-list-numbered{
+    display: list-item;
+    list-style: decimal;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.sell-container {
+    margin: 5%;
+}
+
+.sell-container ul {
+    padding: 0% 20% 0% 22%;
+}
+ 
+.sell-container .sell-list-unordered{
+    display: list-item;
+    list-style: disc;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+ @media only screen and (max-width: 895px) { 
+     .sell-container p {
+         padding: 0%;
+     }
+     }
