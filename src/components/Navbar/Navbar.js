@@ -3,7 +3,6 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import smallImage from "../../images/jhesse.jpg";
 import {faPhone, faEnvelope, faBars} from "@fortawesome/free-solid-svg-icons";
-import {faTwitter, faPinterest, faFacebook, faFontAwesome} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 const Navbar = () => {
@@ -28,7 +27,7 @@ const Navbar = () => {
           <Link to="/Home">Home</Link>
           <Link to="/Buy">Buying</Link>
           <Link to="/Sell">Selling</Link>
-          <Link to="/Sell">Regions</Link>
+          <Link to="/Regions">Regions</Link>
         </div>
         </div>
         <div className="navbar-navigation">
@@ -42,11 +41,11 @@ const Navbar = () => {
           <Link to="/Sell">Selling</Link>
         </li>
         <div className="dropdown">
-          <button className="button-geo">Regions of Expertise</button>
+          <Link to="/Regions" className="button-geo">Regions of Expertise</Link>
           <div className="dropdown-content">
-          <Link to="/Sell">Placer County</Link>
-          <Link to="/Sell">El Dorado County</Link>
-          <Link to="/Sell">Sacramento County</Link>
+          <Link to="/Regions/Placer-County">Placer County</Link>
+          <Link to="/Regions/El-Dorado-County">El Dorado County</Link>
+          <Link to="/Regions/Sacramento-County">Sacramento County</Link>
         </div>
         </div>
         </div> 

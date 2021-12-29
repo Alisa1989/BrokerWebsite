@@ -27,10 +27,10 @@
     text-align: left;
 }
 
-.navbar-navigation li a{
+.navbar-navigation a{
     border-bottom: 2px solid transparent;
 }
-.navbar-navigation li a:hover{
+.navbar-navigation a:hover{
     border-bottom: 2px solid white;
     color: #0a58ca;
 }
@@ -93,8 +93,6 @@ li {
     color: white;
 }
 
-
-
 .dropdown-content-mobile a:hover {
     color: #ffffff;
     background-color: #518bca;
@@ -151,10 +149,12 @@ li {
     text-decoration: none;
 }
 
-.dropdown button {
+.dropdown .button-geo {
     border: none;
     background-color: #518bca;
     color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 895px) { 
