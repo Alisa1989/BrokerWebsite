@@ -1,0 +1,15 @@
+h1 {
+    font-size: 50px;
+ }
+ 
+ .geography-container p {
+     text-align: left;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 600;
+     padding: 0% 20%;
+     letter-spacing: 0.1em;
+  }
+ 
+ .geography-container {
+     margin: 5%;
+ }
