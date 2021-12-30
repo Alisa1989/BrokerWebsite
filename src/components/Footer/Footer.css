@@ -21,3 +21,9 @@ footer {
 .footer-icons a {
     padding: 0% 5%;
 }
+
+@media only screen and (max-width: 895px) { 
+    footer{
+        padding: 0% 20%;
+    }
+}
