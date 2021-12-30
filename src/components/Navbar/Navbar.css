@@ -1,3 +1,9 @@
+.navbar-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
 .contact-links-mobile {
     display: flex;
     justify-content: space-between;

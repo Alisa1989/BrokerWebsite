@@ -1,18 +1,11 @@
 import React from "react";
 import "./Home.css";
 import logoImage from "../../images/logo1.jpg";
-import { faHouseUser } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
   return (
     <div className="home-container">
-      <FontAwesomeIcon
-        className="home-icon"
-        icon={faHouseUser}
-        color="#518bca"
-        size="10x"
-      />
+    <div className="home-script">
       <p>
         &emsp; When it comes to buying and selling real estate in Sacramento,
         California, and the surrounding area, it’s important to have a skilled
@@ -96,6 +89,7 @@ const Home = () => {
       &emsp; If you are interested in buying or selling property in the greater
         Sacramento area, contact Jon today!
       </p>
+    </div>
       <img className="home-image" src={logoImage} alt="logo" />
     </div>
   );
