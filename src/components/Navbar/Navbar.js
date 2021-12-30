@@ -24,7 +24,7 @@ const Navbar = () => {
             <FontAwesomeIcon className="bars" icon={faBars }/>
           </button>
           <div className="dropdown-content-mobile">
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/Buy">Buying</Link>
           <Link to="/Sell">Selling</Link>
           <Link to="/Regions">Regions</Link>
