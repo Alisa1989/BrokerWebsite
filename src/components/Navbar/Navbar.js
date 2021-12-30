@@ -43,9 +43,6 @@ const Navbar = () => {
         <div className="dropdown">
           <Link to="/Regions" className="button-geo">Regions of Expertise</Link>
           <div className="dropdown-content">
-          <Link to="/Regions/Placer-County">Placer County</Link>
-          <Link to="/Regions/El-Dorado-County">El Dorado County</Link>
-          <Link to="/Regions/Sacramento-County">Sacramento County</Link>
         </div>
         </div>
         </div> 
