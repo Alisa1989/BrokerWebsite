@@ -4,7 +4,8 @@ import logoImage from "../../images/logo1.jpg";
 
 const Sell = () => {
   return (
-    <div className="sell-container">
+      <div className="sell-container">
+    <div className="sell-script">
       <h1>Selling</h1>
       <p>
         &emsp; Selling a home is just as complicated a process as buying one,
@@ -21,27 +22,27 @@ const Sell = () => {
       </p>
       <ol>
         <li className="sell-list-numbered">
-          <b> Setting a listing price for your home </b> - As a seasoned
+          <em> Setting a listing price for your home </em> - As a seasoned
           Sacramento real estate agent, Jon knows the ins and outs of the
           Sacramento housing market. Armed with this information, he’ll assess
           your property and come up with the right listing price based on
           similar houses that have recently sold in your area.
         </li>
         <li className="sell-list-numbered">
-          <b> Staging your home </b> - Before you place your residence on the
+          <em> Staging your home </em> - Before you place your residence on the
           market, you’ll probably need to do a little bit of work to get it in
           proper viewing condition. Jon can help you prioritize these tasks and
           ensure that your property looks appealing to prospective buyers.
         </li>
         <li className="sell-list-numbered">
-          <b> Advertising and showing your home</b> - One of the main advantages
+          <em> Advertising and showing your home</em> - One of the main advantages
           of working with a Sacramento real estate agent is that they know how
           to market your house and get it in front of the right people. Jon will
           make sure that your listing perfectly highlights your home’s selling
           points so that it attracts more buyers.
         </li>
         <li className="sell-list-numbered">
-          <b>Negotiating a deal </b>- Once you start receiving offers for your
+          <em>Negotiating a deal </em>- Once you start receiving offers for your
           residence, Jon will review the details with you and provide helpful
           advice to influence your decision. Then, he’ll guarantee that all
           transactions are completed by the closing date.
@@ -62,20 +63,20 @@ const Sell = () => {
       </p>
       <ul>
         <li className="sell-list-unordered">
-          <b>Find yourself a real estate professional </b> – Jon Hesse has
+          <em>Find yourself a real estate professional </em> – Jon Hesse has
           plenty of experience selling homes, and he knows what it takes to
           attract the right kind of buyers. Use Jon Hesse and his expert team of
           professionals as a resource along the way.
         </li>
         <li className="sell-list-unordered">
-          <b>Boost curb appeal - </b>First impressions can be the most important
+          <em>Boost curb appeal - </em>First impressions can be the most important
           part, so spend some time improving your yard, driveway and the
           exterior of your home. You want the buyers to “get out of their car.”
           This should make your prospective buyers feel good about your house
           before they’ve even walked inside.
         </li>
         <li className="sell-list-unordered">
-          <b>Fix up your home </b>- The majority of buyers like properties that
+          <em>Fix up your home </em>- The majority of buyers like properties that
           are in move-in condition, meaning they won’t have to make many
           repairs, if any at all. With this in mind, it could benefit you in the
           long run to address any issues before putting your house on the
@@ -83,20 +84,20 @@ const Sell = () => {
           saving you money.
         </li>
         <li className="sell-list-unordered">
-          <b>Highlight selling points </b>- Buyers tend to want things like
+          <em>Highlight selling points </em>- Buyers tend to want things like
           storage space and natural light, so work on highlighting these key
           selling points. Jon can help you identify the key features of your
           home and the best way to showcase them.
         </li>
         <li className="sell-list-unordered">
-          <b>Set the right price </b>– Understandably, you’ll want to make as
+          <em>Set the right price </em>– Understandably, you’ll want to make as
           much money as possible selling your home. Jon will show you all the
           necessary data and local market trends when assisting you with setting
           the proper price. The last thing he wants is for your home to sit
           stagnant on the market without any offers.
         </li>
         <li className="sell-list-unordered">
-          <b>Stage the interior of your home </b>- Most prospective buyers like
+          <em>Stage the interior of your home </em>- Most prospective buyers like
           to envision themselves living in your home, which includes placing
           their furniture and belongings inside it. Sometimes they can have a
           hard time doing this if your personal belongings, knickknacks,
@@ -105,7 +106,7 @@ const Sell = () => {
           welcoming neutral feeling for all.
         </li>
         <li className="sell-list-unordered">
-          <b>Sweeten the deal </b>- By offering to put money toward closing
+          <em>Sweeten the deal </em>- By offering to put money toward closing
           costs or remaining flexible about dates and deadlines, you may be able
           to sell your property faster. Jon will share his tips of the trade
           when the time is right.
@@ -173,6 +174,7 @@ const Sell = () => {
         attention you deserve.
       </p>
       <p>&emsp; Make the smart choice and call Jon today to get started!</p>
+    </div>
       <img className="buy-image" src={logoImage} alt="logo" />
     </div>
   );
