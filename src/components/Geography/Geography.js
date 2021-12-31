@@ -58,9 +58,11 @@ const Geography = () => {
         you with your real estate needs.
       </p>
       <p>&emsp; Explore these counties in more detail:</p>
-      <Link to="/Regions/El-Dorado-County">El Dorado County</Link>
-      <Link to="/Regions/Sacramento-County">Sacramento County</Link>
-      <Link to="/Regions/Placer-County">Placer County</Link>
+      <div className="geo-link-nav">
+        <Link to="/Regions/Sacramento-County">Sacramento County</Link>
+        <Link to="/Regions/El-Dorado-County">El Dorado County</Link>
+        <Link to="/Regions/Placer-County">Placer County</Link>
+      </div>
       <Outlet />
     </div>
   );
