@@ -1,11 +1,22 @@
 h1 {
     font-size: 50px;
  }
+
+ .geo-link-nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
  
+ .geo-link-nav a {
+     color: gray;
+     margin: 1%;
+ }
  .geography-container p {
      text-align: left;
      font-family: 'Roboto', sans-serif;
      font-weight: 600;
+     font-size: 18px;
      padding: 0% 20%;
      letter-spacing: 0.1em;
   }
