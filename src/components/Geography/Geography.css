@@ -9,18 +9,38 @@ h1 {
  }
  
  .geo-link-nav a {
-     color: gray;
+     color: #518bca;
      margin: 1%;
- }
- .geography-container p {
-     text-align: left;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 600;
      font-size: 18px;
-     padding: 0% 20%;
-     letter-spacing: 0.1em;
-  }
- 
- .geography-container {
-     margin: 5%;
+     font-weight: bold;
  }
+ .geography-container {
+    margin: 60px 5% 0 5%;
+}
+
+.geography-script {
+    padding: 5% 0;
+}
+
+
+.geography-script p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0% 20%;
+    letter-spacing: 0.1em;
+ }
+
+@media only screen and (max-width: 895px) { 
+    .geography-container p {
+        padding: 0%;
+    }
+    .geography-container {
+        margin: 60px 0 0 0;
+    }
+    
+    .geography-script {
+        padding: 5% 5%;
+    }
+    }
