@@ -32,6 +32,26 @@ h1 {
     letter-spacing: 0.1em;
  }
 
+.eldorado-container {
+    background-image: url("../../images/free-eldorado.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+}
+.placer-container {
+    background-image: url("../../images/free-auburn.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+}
+.sacramento-container {
+    background-image: url("../../images/free-sac.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+}
+
+
 @media only screen and (max-width: 895px) { 
     .geography-container p {
         padding: 0%;

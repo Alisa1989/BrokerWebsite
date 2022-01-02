@@ -2,7 +2,7 @@ import React from "react";
 
 const Placer = () => {
   return (
-    <div>
+    <div className="placer-container">
       <h1>Placer County</h1>
       <p>
         &emsp; If you’re looking for a place to settle down in the Golden State

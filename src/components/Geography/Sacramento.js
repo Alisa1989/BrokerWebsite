@@ -2,7 +2,7 @@ import React from "react";
 
 const Sacramento = () => {
   return (
-    <div>
+    <div className="sacramento-container">
       <h1>Sacramento County</h1>
       <p>
         &emsp; If you’re thinking about relocating in California and you’re
