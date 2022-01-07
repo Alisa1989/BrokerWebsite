@@ -65,8 +65,8 @@ const Geography = () => {
           <Link to="/Regions/El-Dorado-County">El Dorado County</Link>
           <Link to="/Regions/Placer-County">Placer County</Link>
         </div>
-        <Outlet />
       </div>
+        <Outlet />
     </div>
   );
 };
