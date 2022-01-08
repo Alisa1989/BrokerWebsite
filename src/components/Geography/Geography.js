@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const Geography = () => {
   return (
     <div className="geography-container">
+      <Outlet />
       <div className="geography-script">
         <h1>Regions of expertise</h1>
         <p>
@@ -62,11 +63,10 @@ const Geography = () => {
         <p>&emsp; Explore these counties in more detail:</p>
         <div className="geo-link-nav">
           <Link to="/Regions/Sacramento-County">Sacramento County</Link>
-          <Link to="/Regions/El-Dorado-County">El Dorado County</Link>
+          <Link to="/Regions/El-Dorado-County/#elDorado">El Dorado County</Link>
           <Link to="/Regions/Placer-County">Placer County</Link>
         </div>
       </div>
-        <Outlet />
     </div>
   );
 };
