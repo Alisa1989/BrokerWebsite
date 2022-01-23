@@ -1,5 +1,9 @@
 h1 {
-    font-size: 50px;
+    font-size: 5rem;
+ }
+
+ h2 {
+    font-size: 2.5rem;
  }
 
  .geo-link-nav {
@@ -11,7 +15,7 @@ h1 {
  .geo-link-nav a {
      color: #518bca;
      margin: 1%;
-     font-size: 18px;
+     font-size: 1.8rem;
      font-weight: bold;
  }
  .geography-container {
@@ -27,7 +31,7 @@ h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 0% 20%;
     letter-spacing: 0.1em;
  }
@@ -43,8 +47,8 @@ h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 18px;
-    padding: 0% 16%;
+    font-size: 1.8rem;
+    padding: 0% 20%;
     letter-spacing: 0.1em;
 }
 
@@ -59,7 +63,7 @@ h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 0% 20%;
     letter-spacing: 0.1em;
 }
@@ -76,7 +80,7 @@ h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 0% 20%;
     letter-spacing: 0.1em;
 }

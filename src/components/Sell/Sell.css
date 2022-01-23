@@ -3,13 +3,16 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5rem;
  }
- 
+ h2 {
+    font-size: 2.5rem;
+ }
+
  .sell-script p {
      text-align: left;
      font-family: 'Roboto', sans-serif;
-     font-size: 18px;
+     font-size: 1.8rem;
      font-weight: 600;
      padding: 0% 20%;
      letter-spacing: 0.1em;
@@ -25,7 +28,7 @@ h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 0.1em;
 }
 .sell-script {
@@ -45,7 +48,7 @@ h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 0.1em;
 }
 
