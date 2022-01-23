@@ -3,7 +3,7 @@ import React from "react";
 const ElDorado = () => {
   return (
     <div className="eldorado-container">
-      <h1>El Dorado County</h1>
+      <h1 id='elDorado'>El Dorado County</h1>
       <p>
         &emsp; El Dorado County in California is an area known for its robust
         natural beauty and close proximity to some of the hottest destinations
